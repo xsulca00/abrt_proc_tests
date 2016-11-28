@@ -1,0 +1,6 @@
+Usage:
+    make change -> use UID and GID change (run under root_
+    make        -> normal usage without UID and GID change
+
+Examples:
+    sudo ./memdump <pid_of_abrtd> > dump    // write memory of abrtd to the dump file, print accesed address ranges and UID change (stderr)
